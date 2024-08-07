@@ -1,8 +1,3 @@
 {
- "image": "mcr.microsoft.com/devcontainers/universal:2",
-//  "features": {
-//      "ghcr.io/astronomer/devcontainer-features/astro-cli:latest": {}
-//  },
-  "postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh",
-  "forwardPorts": [9090, 8080, 8501, 8502]
+  "postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh"
 }
